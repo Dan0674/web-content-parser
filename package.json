@@ -1,0 +1,16 @@
+
+{
+  "name": "web-content-parser",
+  "version": "1.0.0",
+  "description": "API Express utilisant Mercury Parser pour extraire du contenu d'articles web",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@postlight/mercury-parser": "^2.2.0",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1"
+  }
+}
